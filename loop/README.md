@@ -24,4 +24,4 @@ An example 'input.csv' is included.
 
 Run the script with the input csv and output RTML as arguments, e.g.:
 
->python rtml.py input.csv out.rtml
+>python loopRTML input.csv out.rtml
