@@ -1,0 +1,35 @@
+  <Request>
+    <ID>$TARGET1</ID>
+    <UserName/>
+    <Observers>$OBSERVER</Observers>
+    <Description>$DESCRIPTION</Description>
+    <Project>$PROJECT</Project>
+    <Schedule>
+      <SkyCondition>Fair</SkyCondition>
+      <Moon>
+        <Distance>60</Distance>
+        <Width>6</Width>
+      </Moon>
+      <TimeRange>
+        <Earliest>2023-01-31T12:00:00</Earliest>
+        <Latest>2023-03-31T12:00:00</Latest>
+      </TimeRange>
+      <Priority>1</Priority>
+    </Schedule>
+    <Telescope>$TELESCOPE</Telescope>
+    <Target count="1">
+      <ID>$TARGET1</ID>
+      <Name>$TARGET1</Name>
+      <Description>$TARGET1</Description>
+      <Coordinates>
+        <RightAscension>$RA1</RightAscension>
+        <Declination>$DEC1</Declination>
+      </Coordinates>
+      <Picture count="2">
+        <Name>$FILTER1_$EXP1_2x2</Name>
+        <ExposureTime>$EXP1</ExposureTime>
+        <Binning>4</Binning>
+        <Filter>$FILTER1</Filter>
+      </Picture>
+    </Target>
+  </Request>

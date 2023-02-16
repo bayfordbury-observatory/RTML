@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RTML version="2.3">
+  <Contact>
+    <User/>
+    <Email/>
+    <Organization>University of Hertfordshire</Organization>
+  </Contact>
+  <Request>
+    <ID>Gaia DR2 4007474181050310016</ID>
+    <UserName/>
+    <Observers>David Campbell</Observers>
+    <Description>Project description</Description>
+    <Project>Test project</Project>
+    <Schedule>
+      <SkyCondition>Fair</SkyCondition>
+      <Moon>
+        <Distance>60</Distance>
+        <Width>6</Width>
+      </Moon>
+      <TimeRange>
+        <Earliest>2023-01-31T12:00:00</Earliest>
+        <Latest>2023-03-31T12:00:00</Latest>
+      </TimeRange>
+      <Priority>1</Priority>
+    </Schedule>
+    <Telescope>3</Telescope>
+    <Target count="1">
+      <ID>Gaia DR2 4007474181050310016</ID>
+      <Name>Gaia DR2 4007474181050310016</Name>
+      <Description>Gaia DR2 4007474181050310016</Description>
+      <Coordinates>
+        <RightAscension>178.1273193</RightAscension>
+        <Declination>27.51200038</Declination>
+      </Coordinates>
+      <Picture count="2">
+        <Name>V_15_2x2</Name>
+        <ExposureTime>15</ExposureTime>
+        <Binning>4</Binning>
+        <Filter>V</Filter>
+      </Picture>
+    </Target>
+	<Target count="1">
+      <ID>standard star</ID>
+      <Name>standard star</Name>
+      <Description>standard star</Description>
+      <Coordinates>
+        <RightAscension>190.2</RightAscension>
+        <Declination>20.32</Declination>
+      </Coordinates>
+      <Picture count="2">
+        <Name>V_200s_2x2</Name>
+        <ExposureTime>200</ExposureTime>
+        <Binning>4</Binning>
+        <Filter>V</Filter>
+      </Picture>
+    </Target>
+  </Request>
+  <Request>
+    <ID>Gaia DR2 4006220772154774528</ID>
+    <UserName/>
+    <Observers>David Campbell</Observers>
+    <Description>Project description</Description>
+    <Project>Test project</Project>
+    <Schedule>
+      <SkyCondition>Fair</SkyCondition>
+      <Moon>
+        <Distance>60</Distance>
+        <Width>6</Width>
+      </Moon>
+      <TimeRange>
+        <Earliest>2023-01-31T12:00:00</Earliest>
+        <Latest>2023-03-31T12:00:00</Latest>
+      </TimeRange>
+      <Priority>1</Priority>
+    </Schedule>
+    <Telescope>3</Telescope>
+    <Target count="1">
+      <ID>Gaia DR2 4006220772154774528</ID>
+      <Name>Gaia DR2 4006220772154774528</Name>
+      <Description>Gaia DR2 4006220772154774528</Description>
+      <Coordinates>
+        <RightAscension>180.4697196</RightAscension>
+        <Declination>26.2615668</Declination>
+      </Coordinates>
+      <Picture count="2">
+        <Name>V_30_2x2</Name>
+        <ExposureTime>30</ExposureTime>
+        <Binning>4</Binning>
+        <Filter>V</Filter>
+      </Picture>
+    </Target>
+  </Request>
+</RTML>
