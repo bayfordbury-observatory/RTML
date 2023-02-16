@@ -1,5 +1,7 @@
-from urllib.request import urlopen
-import json
+import sys
+
+inputName = sys.argv[1]
+outputName = sys.argv[2]
 
 #start of RTML
 start = '<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<RTML version=\"2.3\">\n  <Contact>\n    <User/>\n    <Email/>\n    <Organization>University of Hertfordshire</Organization>\n  </Contact>\n'
@@ -19,13 +21,13 @@ template2 = file.read()
 file.close()
 
 #file to output created RTML
-output = open("out.rtml", "w", newline='\r\n')
+output = open(outputName, "w", newline='\r\n')
 
 #output start of RTML
 out = output.write(start)
 
 #read input csv
-file1 = open('input.csv', 'r')
+file1 = open(inputName, 'r')
 Lines = file1.readlines()
 
 #count number of lines
@@ -34,7 +36,7 @@ i=0
 # Strips the newline character
 for line in Lines:
 
-	print(line.strip())
+	#print(line.strip())
 
 	if i==0:
 		observer = line.strip()
