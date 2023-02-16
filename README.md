@@ -1,6 +1,6 @@
 # RTML
 
-A simple python script to create generate RTML based on a template file and a list of targets.
+A simple python script to generate RTML based on a template file and a list of targets.
 
 Template for a single target plan, and two target plan (e.g. for observing a standard star) are included.
 
@@ -21,3 +21,7 @@ Or for two targets:
 Coordinates must be in decimal degrees, and exposure time is in seconds. Filters must match those available on the selected telescope (see telescope setup page).
 
 An example 'input.csv' is included.
+
+Run the script with the input csv and output RTML as arguments, e.g.:
+
+>python rtml.py input.csv out.rtml
