@@ -32,7 +32,7 @@
         <Filter>$FILTER1</Filter>
       </Picture>
     </Target>
-	<Target count="1">
+    <Target count="1">
       <ID>$TARGET2</ID>
       <Name>$TARGET2</Name>
       <Description>$TARGET2</Description>
